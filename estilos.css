@@ -1,0 +1,118 @@
+    /* Estilos para el menú HOME */
+    body {
+        background-color: #e6e4de;
+    }
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #040344;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+      }
+
+      nav ul li {
+        margin-left: 20px;
+      }
+
+      nav a {
+        color: rgb(192, 38, 146);
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+      nav a:hover {
+        color: #aaaaaa;
+      }
+        /* Estilos para el logo */
+        #logo {
+        display: flex;
+        align-items: center;
+      }
+
+      #logo img {
+        height: 300px;
+        margin-right: 10px;
+        margin-left: 600px;
+      }
+
+      footer {
+        background-color: #040344;
+        color: #fff;
+        padding: 20px;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        }
+
+        .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        }
+
+        .social-links {
+        list-style: none;
+        display: flex;
+        }
+
+        .social-links li:not(:last-child) {
+        margin-right: 20px;
+        }
+
+        .social-links a {
+        color: #fff;
+        text-decoration: none;
+        }
+
+        /*mision y vision*/
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        /*Contacto*/
+        .container-contacto {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .contact-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+  
+          .whatsapp-button, .email-button, .instagram-button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border-radius: 30px;
+            font-size: 18px;
+            color: #fff;
+            text-decoration: none;
+            transition: background-color 0.2s;
+          }
+  
+          .whatsapp-button {
+            background-color: #d325c4;
+          }
+  
+          .email-button {
+            background-color: #d325c4;
+          }
+
+          .instagram-button {
+            background-color: #d325c4;
+        }
